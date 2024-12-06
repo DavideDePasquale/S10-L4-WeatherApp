@@ -38,10 +38,6 @@ const DetailsMeteo = () => {
   if (error) {
     return <div>{error}</div>;
   }
-
-  if (error) {
-    return <div>{error}</div>;
-  }
   const kelvinToCelsius = (kelvin) => {
     return (kelvin - 273.15).toFixed(); // funzione dove ho bestemmiato per capire come convertire i kelvin in centigradi
   };

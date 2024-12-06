@@ -32,9 +32,9 @@ function TopBar() {
                 Utilità
               </NavLink>
             </Nav>
-            <Nav className="ms-auto my-2 my-lg-0" navbarScroll>
-              <NavLink to="/contatti" className="nav-link">
-                Contatti
+            <Nav className="ms-auto my-1 my-lg-0" navbarScroll>
+              <NavLink to="/Contatti" className="nav-link me-2">
+                Contatti & Lic.
               </NavLink>
               <Button variant="success" className="px-3">
                 Accedi
