@@ -56,7 +56,8 @@ const DetailsMeteo = () => {
           >
             <Card.Header>
               <strong>
-                {meteo.name} - {meteo.sys.country}
+                {meteo.name} - {meteo.sys.country} -
+                <cite style={{ fontFamily: "light" }}> Temperatura Live:</cite>
                 <strong style={{ color: "blue" }}>
                   {" "}
                   {kelvinToCelsius(meteo.main.temp)}°C

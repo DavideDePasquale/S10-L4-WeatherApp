@@ -33,7 +33,10 @@ const FormControl = () => {
 
   return (
     <Form className="text-center mt-4" onSubmit={handleSubmit}>
-      <Form.Label className="fs-1" style={{ color: "#5a7d45" }}>
+      <Form.Label
+        className="fs-1"
+        style={{ color: "#5a7d45", textShadow: "2px 2px 5px green" }}
+      >
         Inserisci qui la città...
       </Form.Label>
       <div className="d-flex justify-content-center">
