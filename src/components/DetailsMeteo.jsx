@@ -52,7 +52,11 @@ const DetailsMeteo = () => {
         {meteo ? (
           <Card
             className="mb-2 justify-content-center"
-            style={{ width: "400px", border: "solid 1px blue" }}
+            style={{
+              width: "400px",
+              border: "solid 1px blue",
+              boxShadow: "5px 2px 15px #9fadc1"
+            }}
           >
             <Card.Header>
               <strong>

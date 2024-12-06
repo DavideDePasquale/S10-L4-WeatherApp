@@ -51,7 +51,8 @@ const MeteoFuturo = ({ lat, lon }) => {
                 <Card
                   style={{
                     border: "solid 1px green",
-                    backgroundColor: "#c9fff5"
+                    backgroundColor: "#c9fff5",
+                    boxShadow: "5px 2px 15px green"
                   }}
                 >
                   <Card.Body>
