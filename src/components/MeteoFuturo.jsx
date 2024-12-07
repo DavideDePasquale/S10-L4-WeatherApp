@@ -15,7 +15,7 @@ const MeteoFuturo = ({ lat, lon }) => {
 
         if (resp.cod === "200") {
           console.log(resp);
-          setMeteoProx(resp); //  Salviamo i dati del meteo
+          setMeteoProx(resp); //  Salviamo i dati meteo
         } else {
           setError("Impossibile recuperare le previsioni meteo.");
         }
@@ -60,7 +60,7 @@ const MeteoFuturo = ({ lat, lon }) => {
                       {meteo.dt_txt}
                       <hr />
                     </Card.Title>
-                    <Card.Text>
+                    <Card.Text as="cite">
                       Temperatura:{" "}
                       <strong style={{ color: "blue" }}>
                         {kelvinToCelsius(meteo.main.temp)}°C

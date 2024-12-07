@@ -9,6 +9,7 @@ const Contatti = () => {
           <Row className="justify-content-center mt-5">
             <Col xs={4}>
               <Row className="text-center">
+                <h6 style={{ color: "#1c7300" }}>Seguici su...</h6>
                 <Col className=" mb-4">
                   <Facebook className="mx-1" style={{ color: "blue" }} />
                   <Instagram className="mx-1" style={{ color: "red" }} />
@@ -20,7 +21,7 @@ const Contatti = () => {
                 sm={2}
                 md={4}
                 lg={4}
-                className="justify-content-space-between"
+                className="justify-content-between"
               >
                 <Col>
                   <Col className=" footer-links">
@@ -121,7 +122,7 @@ const Contatti = () => {
                           href="#PrivcyAndCookie"
                           alt="footer link"
                           className="text-decoration-none "
-                          style={{ color: "#0e6b40", fontSize: "12px" }}
+                          style={{ color: "#0e6b40", fontSize: "13px" }}
                         >
                           Privacy and Cookie Policy
                         </a>
@@ -131,7 +132,7 @@ const Contatti = () => {
                           href="#Consensi"
                           alt="footer link"
                           className="text-decoration-none"
-                          style={{ color: "#0e6b40" }}
+                          style={{ color: "#0e6b40", fontSize: "12px" }}
                         >
                           Consensi GDPR
                         </a>

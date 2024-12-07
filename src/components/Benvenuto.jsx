@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "react-bootstrap-icons";
-import { Sun } from "react-bootstrap-icons";
+import { Sun, Cloudy, Snow, CloudRainFill } from "react-bootstrap-icons";
 
 const Benvenuto = () => {
   return (
@@ -14,10 +14,13 @@ const Benvenuto = () => {
           WeatherApp
         </strong>
       </h1>
-      <h5 className="text-center">
+      <h5 className="text-center mt-5">
         Se vuoi cercare il meteo nella tua città, clicca qui <ArrowRight />{" "}
-        <Link to="/Meteo">
-          <Sun />
+        <Link to="/Home">
+          <Sun className="me-3" style={{ fontSize: "40px" }} />
+          <Cloudy className="me-3" style={{ fontSize: "40px" }} />
+          <Snow className="me-3" style={{ fontSize: "40px" }} />
+          <CloudRainFill className="me-3" style={{ fontSize: "40px" }} />
         </Link>
       </h5>
     </>

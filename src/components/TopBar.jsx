@@ -9,9 +9,9 @@ function TopBar() {
     <>
       <Navbar expand="md" className="topbarcol">
         <Container fluid>
-          <Navbar.Brand to="/Home">
+          <NavLink to="/" className="nav-link">
             <CloudSun style={{ width: "1.3em", height: "2em" }} />
-          </Navbar.Brand>
+          </NavLink>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -22,11 +22,8 @@ function TopBar() {
               <NavLink to="/Home" className="nav-link">
                 Home
               </NavLink>
-              <NavLink to="/Meteo" className="nav-link">
+              <NavLink to="/weather/" className="nav-link">
                 Meteo
-              </NavLink>
-              <NavLink to="/Ventiemari" className="nav-link">
-                Venti e Mari
               </NavLink>
               <NavLink to="/Utilities" className="nav-link">
                 Utilità

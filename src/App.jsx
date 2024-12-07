@@ -13,8 +13,9 @@ function App() {
       <BrowserRouter>
         <TopBar />
         <Routes>
-          <Route path="/Home" element={<Benvenuto />} />
-          <Route path="/Meteo" element={<FormControl />} />
+          <Route path="/" element={<Benvenuto />} />
+          <Route path="/" element={<Benvenuto />} />
+          <Route path="/Home" element={<FormControl />} />
           <Route path="/weather/:lat/:lon" element={<DetailsMeteo />} />
           <Route path="/Contatti" element={<Contatti />} />
         </Routes>

@@ -19,7 +19,7 @@ const DetailsMeteo = () => {
 
         if (resp.cod === 200) {
           console.log(resp);
-          setMeteo(resp); // Salviamo i dati del meteo
+          setMeteo(resp); // Salviamo i dati meteo
           setError("");
         } else {
           setError("Impossibile recuperare i dati del meteo.");
